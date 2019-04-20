@@ -1,3 +1,3 @@
 # react-memmory-game
 react.js based memory game
-<img src="https://media.giphy.com/media/iheqM1jZaRrKqrQGu3/giphy.gif" width="600" align="center">
+<img src="https://github.com/rogueathletic/react-memmory-game/blob/master/memmory-game.gif?raw=true" width="600" align="center">
