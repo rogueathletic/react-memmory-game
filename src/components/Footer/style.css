@@ -1,0 +1,47 @@
+.footer {
+  background:transparent;
+  height: 100px;
+  position: relative;
+  color: white;
+  overflow: auto;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  max-height: 40px;
+  background:#66aeae;
+  font-weight: 600;
+}
+
+.footerText {
+  text-align: center;
+  font-weight: 500;
+}
+
+.footerText > a {
+  color:  darkslategray;
+  font-weight: 400;
+}
+
+.fa-brain {
+  color: rgb(255, 255, 255);
+}
+
+.my-react-icon20 {
+  background: url(../../logo.svg);
+  color: white;
+  background-repeat: no-repeat;
+  animation: my-react-icon20-spin infinite 5s linear;
+}
+
+@keyframes my-react-icon20-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

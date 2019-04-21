@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "image": "assetts/images/avitar-user-1.png",
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "image": "assetts/images/avitar-user-2.png",
+    "clicked": false
+  },
+  {
+    "id": 3,
+    "image": "assetts/images/avitar-user-3.png",
+    "clicked": false
+  },
+  {
+    "id": 4,
+    "image": "assetts/images/avitar-user-4.png",
+    "clicked": false
+  },
+  {
+    "id": 5,
+    "image": "assetts/images/avitar-user-5.png",
+    "clicked": false
+  },
+  {
+    "id": 6,
+    "image": "assetts/images/avitar-user-6.png",
+    "clicked": false
+  },
+  {
+    "id": 7,
+    "image": "assetts/images/avitar-user-7.png",
+    "clicked": false
+  },
+  {
+    "id": 8,
+    "image": "assetts/images/avitar-user-8.png",
+    "clicked": false
+  },
+  {
+    "id": 9,
+    "image": "assetts/images/avitar-user-9.png",
+    "clicked": false
+  },
+  {
+    "id": 10,
+    "image": "assetts/images/avitar-user-10.png",
+    "clicked": false
+  },
+  {
+    "id": 11,
+    "image": "assetts/images/avitar-user-11.png",
+    "clicked": false
+  },
+  {
+    "id": 12,
+    "image": "assetts/images/avitar-user-12.png",
+    "clicked": false
+  }
+]

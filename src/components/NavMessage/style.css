@@ -1,0 +1,43 @@
+.navbar {
+  animation: .8s correct;
+}
+.correct {
+  animation: .8s correct;
+}
+
+.navbar {
+  animation: .4s incorrect;
+}
+
+.incorrect {
+  animation: .4s incorrect;
+}
+
+@keyframes correct {
+  0% {
+    color: white;
+  }
+
+  50% {
+    color: #8ed40b;
+    text-shadow: 2px 2px black, 4px 4px rgb(71, 70, 70), 5px 5px rgb(138, 135, 135);
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+@keyframes incorrect {
+  0% {
+    color: white;
+  }
+
+  50% {
+    color: #fd8f00;
+  }
+
+  100% {
+    color: white;
+  }
+}

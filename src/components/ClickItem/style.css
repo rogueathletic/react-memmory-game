@@ -1,0 +1,74 @@
+.click-item {
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.00000001);
+  height: 170px;
+  width: 170px;
+  margin: 8px 25px;
+  border: 5px solid rgb(241, 241, 241);
+  border-radius: 25px 5px 25px 5px;
+  box-shadow: 5px 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  cursor: pointer;
+}
+
+.click-item:hover {
+  transform: scale(0.94);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transition: 0.1s;
+  border-radius: 5px 25px 5px 25px;
+}
+
+.flip {
+  animation: flip .5s 0.0125s;
+  border-radius: 25px 25px 25px 25px;
+}
+
+@-webkit-keyframes flip {
+  0% {
+    -webkit-transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
+    transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  40% {
+    -webkit-transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
+    transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  50% {
+    -webkit-transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+    transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  80% {
+    -webkit-transform: perspective(400px) translateZ(0) rotateY(720deg) scale(.95);
+    transform: perspective(400px) translateZ(0) rotateY(720deg) scale(.95);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  100% {
+    -webkit-transform: perspective(500px) translateZ(0) rotateY(1080deg) scale(1);
+    transform: perspective(500px) translateZ(0) rotateY(1080deg) scale(1);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+}
+
+
+@media (max-width: 750px) {
+  .click-item {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .click-item {
+    margin: 5px;
+  }
+}
